@@ -1,3 +1,9 @@
-.main__header h1 {
-  text-align: center;
+.main__header {
+
+  padding: 15px 25% 10px 25%;
+
+
+  .logo {
+    max-width: 200px;
+  }
 }

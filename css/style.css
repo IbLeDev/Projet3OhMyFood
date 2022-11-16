@@ -34,8 +34,19 @@ body, html {
   font-family: "Roboto", sans-serif;
 }
 
-.main__header h1 {
-  text-align: center;
+.main__header {
+  padding: 15px 25% 10px 25%;
+}
+.main__header .logo {
+  max-width: 200px;
+}
+
+.recherche {
+  background: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 5px 5px 0px #dddddd;
 }
 
 /*# sourceMappingURL=style.css.map */
