@@ -26,6 +26,10 @@ h6 {
   margin: 0;
 }
 
+input {
+  border: none;
+}
+
 h1, h6 {
   font-family: Shrikhand, Roboto, sans-serif;
 }
@@ -45,8 +49,18 @@ body, html {
   background: #eaeaea;
   display: flex;
   justify-content: center;
+  height: 50px;
   align-items: center;
   box-shadow: inset 0px 5px 5px 0px #dddddd;
+}
+.recherche input {
+  background-color: inherit;
+  color: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+  width: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
