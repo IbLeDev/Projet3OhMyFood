@@ -1,0 +1,38 @@
+.fonctionnement {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .fonctionnement__etapes {
+
+    padding: 0 25px;
+
+    li {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+      background: #f6f6f6;
+      border: 5px solid #f6f6f6;
+      border-radius: 10px;
+      box-shadow: 4px 4px 6px #fff;
+      font-weight: bold;
+      box-shadow: 4px 4px 6px #e9e9e9;
+    }
+  }
+}
+
+.fonctionnement--etapes__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid $color-primary;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 10px;
+}

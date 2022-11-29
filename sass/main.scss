@@ -1,4 +1,7 @@
-@import "./Base/reset", "./Base/typography";
+@import "./Base/reset";
+@import "./Base/typography";
 @import "./Utils/variables";
-@import "./Layouts/header";
+@import "./Layouts/a-propos";
 @import "./Components/recherche";
+@import "./Components/btn__a-propos";
+@import "./Layouts/header", "./Layouts/fonctionnement";
