@@ -1,7 +1,13 @@
 @import "./Base/reset";
 @import "./Base/typography";
 @import "./Utils/variables";
-@import "./Layouts/a-propos";
 @import "./Components/recherche";
 @import "./Components/btn__a-propos";
+@import "./Components/heart-icon";
+@import './Components/menus-header';
+@import "./Utils/keyframes";
+@import "./Layouts/a-propos";
+@import "./Layouts/resto";
+@import "./Layouts/footer";
 @import "./Layouts/header", "./Layouts/fonctionnement";
+@import "./Layouts/spinner";

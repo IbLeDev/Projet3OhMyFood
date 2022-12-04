@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IbLeDev/Projet3OhMyFood/issues"
   },
-  "homepage": "https://github.com/IbLeDev/Projet3OhMyFood#readme"
+  "homepage": "https://github.com/IbLeDev/Projet3OhMyFood#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
